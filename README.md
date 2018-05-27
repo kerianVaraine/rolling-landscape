@@ -1,7 +1,8 @@
 # rolling-landscape
 
+![preview](https://github.com/kerianVaraine/rolling-landscape/blob/master/rolling-landscape.png "landscape preview")
 
-A rolling landscape P5.js sketch.
+A perlin noise based randomly generated rolling landscape P5.js sketch.
 
 A study of the P5.js perlin noise function, recreating the [#soft landscapes](https://twitter.com/softlandscapes?lang=en) twitter bot.
 
