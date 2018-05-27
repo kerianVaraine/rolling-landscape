@@ -1,0 +1,15 @@
+html, body{
+    background-color:#777;
+    margin: 5px;
+    padding: 0;
+}
+
+button {
+    background-color: #888;
+    border: 1px #999 solid;
+    padding: 5px;
+}
+button:hover {
+    background-color: #898;
+
+}
