@@ -103,7 +103,7 @@ let landscapeLayersDraw = function () {
 //background red init
 function setup() {
     angleMode(DEGREES);
-    let canvas = createCanvas(windowWidth - 20, windowHeight - 50);
+    let canvas = createCanvas(windowWidth - 20, 300);
     canvas.parent("sketch"); //places sketch inside div in html
     createNewLandscape();
     noiseDetail(7, 0.55); // roughens the hills a bit
