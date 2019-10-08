@@ -22,6 +22,7 @@ let Layer = function (offAmount, r, g, b) {
             this.start += this.offAmount * 5;
         } else this.start;
     }
+    this.start += this.offAmount * 8;
     this.draw = function (yhlow, yhhigh, res) {
         beginShape();
         vertex(0, height);
