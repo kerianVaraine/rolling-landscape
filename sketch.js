@@ -40,6 +40,8 @@ let Layer = function (offAmount, r, g, b) {
         // this.start += this.offAmount;
         this.keys();
         this.xoff = this.start;
+this.start += this.offAmount * 8;//auto scroll
+
     }
 }
 let clouds = {
@@ -64,6 +66,7 @@ let clouds = {
         updatePixels();
         this.start -= 0.005;
         this.yoff = this.start;
+
     }
 }
 
@@ -97,7 +100,6 @@ let landscapeLayersDraw = function () {
     fill(255, 50); //fog
     rect(0, 0, width, height);
     layer1.draw(300, 220, 0.35); //close hills
-            this.start += this.offAmount * 8;//auto scroll
 }
 
 //background red init
