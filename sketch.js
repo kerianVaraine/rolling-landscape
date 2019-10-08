@@ -22,7 +22,6 @@ let Layer = function (offAmount, r, g, b) {
             this.start += this.offAmount * 5;
         } else this.start;
     }
-    this.start += this.offAmount * 8;
     this.draw = function (yhlow, yhhigh, res) {
         beginShape();
         vertex(0, height);
@@ -97,8 +96,8 @@ let landscapeLayersDraw = function () {
     layer2.draw(300, 190, 0.3); //mid range mountains
     fill(255, 50); //fog
     rect(0, 0, width, height);
-    layer1.draw(300, 220, 0.35
-); //close hills
+    layer1.draw(300, 220, 0.35); //close hills
+            this.start += this.offAmount * 8;//auto scroll
 }
 
 //background red init
