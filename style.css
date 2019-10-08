@@ -8,6 +8,7 @@ button {
     background-color: #888;
     border: 1px #999 solid;
     padding: 5px;
+    float:left;
 }
 button:hover {
     background-color: #898;
