@@ -38,9 +38,10 @@ let Layer = function (offAmount, r, g, b) {
         vertex(0, height);
         endShape();
         // this.start += this.offAmount;
-        this.keys();
+        this.start += this.offAmount * 8;//auto scroll
+
+//        this.keys();
         this.xoff = this.start;
-this.start += this.offAmount * 8;//auto scroll
 
     }
 }
